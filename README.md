@@ -8,12 +8,14 @@
 2.  Run the main script to start the analysis.
 
 **Usage:**
-```
+
 Format：
-perl  LMWgsFinder.v5.pl  genomeTopLevel.fa  genomeName(cannot contain '.')  genomeAnnotationCDS.fasta  genomeAnnotationPro.fasta
+
+perl  LMWgsFinder.v5.pl  genomeTopLevel.fa  genomeName(cannot contain '.')   genomeAnnotationCDS.fasta  genomeAnnotationPro.fasta
 
 Example：
-perl  LMWgsFinder.v5.pl  testDNAtoplevel.fa  Tatest  testCDS.fasta  testPro.fasta
+```
+perl LMWgsFinder.v5.pl testDNAtoplevel.fa Tatest testCDS.fasta testPro.fasta
 ```
 **LMWgsFinder** will automatically create a folder named `results` in the directory where this package is stored. If you see approximately 20 result files in this folder, it indicates that the package is running correctly and has processed the data as expected. These result files can be used for sequence analysis and experimental validation of LMW-GS genes.
 
